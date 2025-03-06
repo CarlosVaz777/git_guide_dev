@@ -1,6 +1,4 @@
 import NavBar from "./ui/components/navBarComponent";
-import FooterReferenceComponent from "./ui/footerComponent/footerReferenceComponent";
-
 
 export default function Home() {
   return (
@@ -10,12 +8,7 @@ export default function Home() {
         <header>
           <NavBar/>
         </header>
-        
       </main>
-        <div  className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-            <FooterReferenceComponent/>
-        </div>
-      
     </div>
   );
 }
