@@ -118,8 +118,6 @@ export default function GitCommand() {
                 <h1 className="text-xl text-gray-900 dark:text-white">Arreglar ultimo Commit</h1>
                 <div className="m-5">
                     <p> <strong>Si quieres arreglar el último commit (y no has hecho push)</strong> </p>
-                </div>
-                <div className="m-5">
                     <h3> Sólo quieres <strong>arreglar el mensaje que has usado para el último commit:</strong> </h3>
                 </div>
                 <ul className="m-5 p-2 space-y-4 text-gray-500 list-disc list-inside dark:text-gray-400">
